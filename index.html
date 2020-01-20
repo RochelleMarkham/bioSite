@@ -2,6 +2,8 @@
 <html>
 
 <head>
+<!---working on issue with header & navigation sizing--->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 <meta http-equiv="author"
 content="Rochelle Markham"/>
@@ -12,7 +14,7 @@ content="Randi Markham: A Brief History"/>
 <meta name="keywords"
 content="Randi, Markham, Army, K9, Military, Police"/>
 
-<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Covered+By+Your+Grace&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Covered+By+Your+Grace&display=swap" rel="stylesheet"/> 
 
 <link href="style.css" type="text/css" rel=stylesheet />
 
@@ -24,8 +26,10 @@ content="Randi, Markham, Army, K9, Military, Police"/>
 <body>
     <div id="wrapper"> 
         <div id="header">
-            <header>  
+            <header>
                 <h1>Randi<br>Markham</h1>
+                <!---header image--->
+                <img src="images/sunshine.jpg" alt="The Sun shines over the training center illuminating Randi and K9, Frack">
                 <!---primary navigation--->
                 <nav>
                     <ul id="navigation">
@@ -36,8 +40,6 @@ content="Randi, Markham, Army, K9, Military, Police"/>
                         <li><a href="#Present">Family Life</a></li>
                     </ul>
                 </nav>
-                <!---header image--->
-                <img src="images/sunshine.jpg" alt="The Sun shines over the training center illuminating Randi and K9, Frack">
             </header> 
         </div>
         
@@ -54,11 +56,11 @@ content="Randi, Markham, Army, K9, Military, Police"/>
 
                         <p>Randi Markham was born October 12, 1983, in Palm Beach Gardens, FL. Her childhood was colored by her relationship with
                         her parents, Sandra and Jesse, and her sister, Robin.</p> 
-                        
-                        <div id="Kisses">
+                        <!---picture--->
+                        <div>
                             <figure>
-                                <img src="images/kisses.jpg" alt="Frack licks Randi during some down time">
-                                <figcaption>Frack sneaks a kiss <br> during down time.</figcaption>
+                                <img src="images/Child.jpg" alt="Randi poses for a school photo">
+                                <figcaption>Randi smiles for her <br> first grade photo.</figcaption>
                             </figure>
                         </div>  
                     </div>
@@ -66,10 +68,10 @@ content="Randi, Markham, Army, K9, Military, Police"/>
                                                 
                 <li>
                     <div id="Reserves">      
-                        <div id="Boots">
+                        <div>
                             <figure>
-                                <img src="images/boots.jpg" alt="Randi laughs as her dog walks in boots for the first time">
-                                <figcaption>Dogs do boot training to<br>prepare for all conditions.</figcaption>
+                                <img src="images/Grad.jpg" alt="Randi poses with her unit">
+                                <figcaption>Randi poses with <br> her unit.</figcaption>
                             </figure>
                         </div>
                         <!---photos inside tags for timeline placement--->
@@ -93,12 +95,9 @@ content="Randi, Markham, Army, K9, Military, Police"/>
                         
                             <div id="ZeroFour" class="circle">2004</div>
                         </div>
-                                            
-                        <div id="Mara">                
-                            <figure>
-                                <img src="images/Police.jpg" alt="Randi poses with Military Police K9, Mara">
-                                <figcaption>Randi poses with Military <br> Police K9, Mara.</figcaption>
-                            </figure>
+                        <!---slideshow1--->
+                        <div class="SlideBorder">
+                            <div class="slideshow"></div>
                         </div>
                     </div>
                  </li>
@@ -112,12 +111,9 @@ content="Randi, Markham, Army, K9, Military, Police"/>
                             
                             <div id="ZeroFive" class="circle">2005</div>
                         </div>
-                       
-                        <div id="Pups">
-                            <figure>
-                                <img src="images/puppy.jpg" alt="Randi smiles while holding a small puppy">
-                                <figcaption>Her passion for pups <br>doesn't end at work.</figcaption>
-                            </figure> 
+                        <!---slideshow2--->    
+                        <div class="SlideBorder">
+                            <div class="slideshow2"></div>
                         </div>
                     </div>
                 </li>
@@ -158,13 +154,10 @@ content="Randi, Markham, Army, K9, Military, Police"/>
                                                                                        
                             <p>In 2010, she started her work as a US Army recruiter in Mission Viejo, California.</p>
                         </div>                    
-                       
-                        <div id="Marriage">
-                            <figure>
-                                <img src="images/wife.jpg" alt="Randi and Rochelle pose together">
-                                <figcaption class="FamilyTime">Randi enjoys spending quality <br> time with her family.</figcaption>
-                            </figure>
-                        </div>
+                        <!---slideshow3--->                    
+                        <div class="SlideBorder">
+                            <div class="slideshow3"></div>
+                        </div>   
                     </div>
                 </li>
             
@@ -176,10 +169,10 @@ content="Randi, Markham, Army, K9, Military, Police"/>
                     
                         <div id="Fifteen" class="circle">2015</div>
                     
-                        <div id="Luna">
+                        <div>
                             <figure>     
-                                <img src="images/Luna.jpg" alt="Randi smiles as she hugs her dog Luna">
-                                <figcaption>Randi and her dog Luna, <br> enjoy some quality time.</figcaption> 
+                                <img src="images/wife.jpg" alt="Randi smiles with Rochelle">
+                                <figcaption>Randi enjoys spending quality <br> time with her family.</figcaption> 
                             </figure>
                         </div>
                     </div>
@@ -205,11 +198,19 @@ content="Randi, Markham, Army, K9, Military, Police"/>
 
     <div id="footer">
        <footer>
-           <hr>   
-
-            <p><a class="Randi" href="mailto:surfzup83@gmail.com">Email Randi</a></p>
-
-            <p><a href="mailto:rochelle.markham@gmail.com">Contact the Author</a></p>
+           <hr>
+            <!---Army logo links to army website--->
+            <a href="https://www.goarmy.com/">
+                <img src="images/Logo.png" alt="Army Logo">
+            </a>  
+            <!---E-mail Randi link--->
+            <a class="Randi" href="mailto:surfzup83@gmail.com">Email Randi</a>
+            <!---E-mail Rochelle link--->
+            <a class="Rochelle" href="mailto:rochelle.markham@gmail.com">Contact the Author</a>
+            <!---Recruiting logo links to USAREC website--->            
+            <a href="https://recruiting.army.mil/">            
+                <img src="images/Recruit.png" alt="Army Recruiting Logo">
+            </a>
         </footer>
     </div>
     
