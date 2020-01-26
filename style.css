@@ -104,7 +104,8 @@ figcaption{
     font-size: 1.563em;
     font-family: 'Bitter', serif;
     color: rgb(139,140,132);
-    font-weight: 400;}
+    font-weight: 400;
+    margin-left: 75px;}
 
 #Youth{
     border-right: solid 5px rgb(13,28,38);
