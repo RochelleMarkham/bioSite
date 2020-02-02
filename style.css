@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;}
 
+/*header styling*/
 header{
     width:auto;
     height: auto;
@@ -126,7 +127,7 @@ figcaption{
     margin-top: -120px;}
 
 #Reserves, #Deploy, #Missouri, #Family{
-    border-left: solid 5px rgb(13,28,38);;
+    border-left: solid 5px rgb(13,28,38);
     width: 500px;
     height: 100%;
     padding: 0px 20px 0px 40px;
@@ -201,11 +202,20 @@ figcaption{
     height: 400px;
     background: url(images/Police.jpg);
     animation: slide 40s infinite;
+    @-webkit-animation: slide 40s infinite;
     margin-left: 10px;
     position: relative;
     top: 10px;}
 
 @keyframes slide{
+    16%{background: url(images/2.jpg)}
+    33%{background: url(images/3.jpg)}
+    49%{background: url(images/4.jpg)}
+    66%{background: url(images/5.jpg)}
+    83%{background: url(images/12.jpg)}
+    100%{background: url(images/Police.jpg)}}
+
+@-webkit-keyframes slide{
     16%{background: url(images/2.jpg)}
     33%{background: url(images/3.jpg)}
     49%{background: url(images/4.jpg)}
@@ -219,11 +229,20 @@ figcaption{
     height: 400px;
     background: url(images/6.jpg);
     animation: move 40s infinite;
+    @-webkit-animation: move 40s infinite;
     margin-left: 10px;
     position: relative;
     top: 10px;}
 
 @keyframes move{
+    16%{background: url(images/1.jpg)}
+    33%{background: url(images/7.jpg)}
+    49%{background: url(images/8.jpg)}
+    66%{background: url(images/9.jpg)}
+    83%{background: url(images/10.jpg)}    
+    100%{background: url(images/6.jpg)}}
+
+@-webkit-keyframes move{
     16%{background: url(images/1.jpg)}
     33%{background: url(images/7.jpg)}
     49%{background: url(images/8.jpg)}
@@ -237,11 +256,18 @@ figcaption{
     height: 400px;
     background: url(images/Luna.jpg);
     animation: show 25s infinite;
+    @-webkit-animation: show 25s infinite;
     margin-left: 10px;
     position: relative;
     top: 10px;}
 
 @keyframes show{
+    25%{background: url(images/boots.jpg)}
+    50%{background: url(images/kisses.jpg)}
+    75%{background: url(images/puppy.jpg)}
+    100%{background: url(images/Luna.jpg)}}
+
+@-webkit-keyframes show{
     25%{background: url(images/boots.jpg)}
     50%{background: url(images/kisses.jpg)}
     75%{background: url(images/puppy.jpg)}
@@ -265,5 +291,6 @@ footer a{
     float: left;
     padding-left: 100px;}
 
+/*e-mail link styling*/
 .Randi, .Rochelle{
     margin-top: 100px;}
