@@ -203,9 +203,6 @@ figcaption{
     background: url(images/Police.jpg);
     animation: slide 40s infinite;
     -webkit-animation: slide 40s infinite;
-    -ms-animation: slide 40s infinite;
-    -moz-animation: slide 40s infinite;
-    -o-animation: slide 40s infinite;
     margin-left: 10px;
     position: relative;
     top: 10px;}
@@ -226,30 +223,6 @@ figcaption{
     83%{background: url(images/12.jpg)}
     100%{background: url(images/Police.jpg)}}
 
-@-ms-keyframes slide{
-    16%{background: url(images/2.jpg)}
-    33%{background: url(images/3.jpg)}
-    49%{background: url(images/4.jpg)}
-    66%{background: url(images/5.jpg)}
-    83%{background: url(images/12.jpg)}
-    100%{background: url(images/Police.jpg)}}
-
-@-moz-keyframes slide{
-    16%{background: url(images/2.jpg)}
-    33%{background: url(images/3.jpg)}
-    49%{background: url(images/4.jpg)}
-    66%{background: url(images/5.jpg)}
-    83%{background: url(images/12.jpg)}
-    100%{background: url(images/Police.jpg)}}
-
-@-o-keyframes slide{
-    16%{background: url(images/2.jpg)}
-    33%{background: url(images/3.jpg)}
-    49%{background: url(images/4.jpg)}
-    66%{background: url(images/5.jpg)}
-    83%{background: url(images/12.jpg)}
-    100%{background: url(images/Police.jpg)}}
-
 /*slideshow 2 details*/
 .slideshow2{    
     width: 400px;
@@ -257,9 +230,6 @@ figcaption{
     background: url(images/6.jpg);
     animation: move 40s infinite;
     -webkit-animation: move 40s infinite;
-    -ms-animation: move 40s infinite;
-    -moz-animation: move 40s infinite;
-    -o-animation: move 40s infinite;
     margin-left: 10px;
     position: relative;
     top: 10px;}
@@ -280,30 +250,6 @@ figcaption{
     83%{background: url(images/10.jpg)}    
     100%{background: url(images/6.jpg)}}
 
-@-ms-keyframes move{
-    16%{background: url(images/1.jpg)}
-    33%{background: url(images/7.jpg)}
-    49%{background: url(images/8.jpg)}
-    66%{background: url(images/9.jpg)}
-    83%{background: url(images/10.jpg)}    
-    100%{background: url(images/6.jpg)}}
-
-@-moz-keyframes move{
-    16%{background: url(images/1.jpg)}
-    33%{background: url(images/7.jpg)}
-    49%{background: url(images/8.jpg)}
-    66%{background: url(images/9.jpg)}
-    83%{background: url(images/10.jpg)}    
-    100%{background: url(images/6.jpg)}}
-
-@-o-keyframes move{
-    16%{background: url(images/1.jpg)}
-    33%{background: url(images/7.jpg)}
-    49%{background: url(images/8.jpg)}
-    66%{background: url(images/9.jpg)}
-    83%{background: url(images/10.jpg)}    
-    100%{background: url(images/6.jpg)}}
-
 /*slideshow 3 details*/
 .slideshow3{
     width: 400px;
@@ -311,9 +257,6 @@ figcaption{
     background: url(images/Luna.jpg);
     animation: show 25s infinite;
     -webkit-animation: show 25s infinite;
-    -ms-animation: show 25s infinite;
-    -moz-animation: show 25s infinite;
-    -o-animation: show 25s infinite;
     margin-left: 10px;
     position: relative;
     top: 10px;}
@@ -325,24 +268,6 @@ figcaption{
     100%{background: url(images/Luna.jpg)}}
 
 @-webkit-keyframes show{
-    25%{background: url(images/boots.jpg)}
-    50%{background: url(images/kisses.jpg)}
-    75%{background: url(images/puppy.jpg)}
-    100%{background: url(images/Luna.jpg)}}
-
-@-ms-keyframes show{
-    25%{background: url(images/boots.jpg)}
-    50%{background: url(images/kisses.jpg)}
-    75%{background: url(images/puppy.jpg)}
-    100%{background: url(images/Luna.jpg)}}
-
-@-moz-keyframes show{
-    25%{background: url(images/boots.jpg)}
-    50%{background: url(images/kisses.jpg)}
-    75%{background: url(images/puppy.jpg)}
-    100%{background: url(images/Luna.jpg)}}
-
-@-o-keyframes show{
     25%{background: url(images/boots.jpg)}
     50%{background: url(images/kisses.jpg)}
     75%{background: url(images/puppy.jpg)}
@@ -364,8 +289,9 @@ footer{
 footer a{
     display: block;
     float: left;
-    padding-left: 100px;}
+    padding-left: 8%;
+    padding-top: 25px;}
 
 /*e-mail link styling*/
 .Randi, .Rochelle{
-    margin-top: 100px;}
+    margin-top: 50px;}
